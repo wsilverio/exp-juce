@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="wCC7ZM" name="shortcut-keys" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.shortcutkeys" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.3">
+  <MAINGROUP id="SHUBbq" name="shortcut-keys">
+    <GROUP id="{47834065-8374-3B67-3900-869A43C34617}" name="Source">
+      <FILE id="P6jg2x" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="lf1XqZ" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="r8WXhr" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <FILE id="Uh0JBC" name="SlidersPlot.h" compile="0" resource="0" file="Source/SlidersPlot.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="shortcut-keys"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="shortcut-keys"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../repos/Projucer/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../repos/Projucer/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../repos/Projucer/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../repos/Projucer/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../repos/Projucer/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../repos/Projucer/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../repos/Projucer/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
